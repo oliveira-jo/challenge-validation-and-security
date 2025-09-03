@@ -38,10 +38,10 @@ Este é um sistema de eventos e cidades com uma relação N-1 entre eles:
 - Controle de acesso por rotas e perfis de usuário
 - Validação de dados com Bean Validation
 
-## Checklist to resolve ✅ 
-*	Modelo de dados User-Role
-  *	Entidades
-  *	Seed da base de dados
+## Checklist to resolve 
+✅ *	Modelo de dados User-Role
+✅   *	Entidades
+✅   *	Seed da base de dados
 *	Incluir infraestrutura de exceções e validação
   *	Dependências Bean Validation
   *	Exceções de serviço customizadas
