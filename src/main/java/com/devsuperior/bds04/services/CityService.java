@@ -28,4 +28,12 @@ public class CityService {
         obj -> new CityDTO(obj)).collect(Collectors.toList());
   }
 
+  @Transactional
+  public CityDTO save(CityDTO dto) {
+
+    var resp = repository.save(new City(null, dto.getName()));
+
+    return new CityDTO(resp);
+  }
+
 }
