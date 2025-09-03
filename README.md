@@ -39,13 +39,13 @@ Este é um sistema de eventos e cidades com uma relação N-1 entre eles:
 - Validação de dados com Bean Validation
 
 ## Checklist to resolve 
-✅ *	Modelo de dados User-Role
+ *	Modelo de dados User-Role
 ✅   *	Entidades
 ✅   *	Seed da base de dados
 *	Incluir infraestrutura de exceções e validação
-  *	Dependências Bean Validation
-  *	Exceções de serviço customizadas
-  *	Handler de exceções dos controladores
+✅   *	Dependências Bean Validation
+✅   *	Exceções de serviço customizadas
+✅   *	Handler de exceções dos controladores
 *	Incluir infraestrutura de segurança ao projeto
   *	Dependências Spring Security e OAuth2
   *	Variáveis de ambiente
