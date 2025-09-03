@@ -39,21 +39,25 @@ Este é um sistema de eventos e cidades com uma relação N-1 entre eles:
 - Validação de dados com Bean Validation
 
 ## Checklist to resolve 
- *	Modelo de dados User-Role
-✅   *	Entidades
-✅   *	Seed da base de dados
-*	Incluir infraestrutura de exceções e validação
-✅   *	Dependências Bean Validation
-✅   *	Exceções de serviço customizadas
-✅   *	Handler de exceções dos controladores
-*	Incluir infraestrutura de segurança ao projeto
-✅  *	Dependências Spring Security e OAuth2
-✅    *	Variáveis de ambiente
-  *	Checklist do Spring Security
-✅    * UserDetails
-✅    * GrantedAuthority
-✅    * UserDetailsService
-✅    * UsernameNotFoundExeption
-  *	Implementação customizada password grant
-  *	Classes de configuração Authorization Server e Resource Server
-*	Implementar as funcionalidades
+ ###	Modelo de dados User-Role
+   - [x] Entidades 
+   - [x] Seed da base de dados 
+
+###	Incluir infraestrutura de exceções e validação
+   - [x] Dependências Bean Validation 
+   - [x] Exceções de serviço customizadas 
+   - [x] Handler de exceções dos controladores 
+
+###	Incluir infraestrutura de segurança ao projeto
+  - [x] Dependências Spring Security e OAuth2 
+  - [x] Variáveis de ambiente 
+  - [x] Checklist do Spring Security     
+  - [x] Implementação customizada password grant
+  - [x]	Classes de configuração Authorization Server e Resource Server
+
+###	Implementar as funcionalidades
+  - [ ] Post Login
+  - [ ] Get Cities
+  - [ ] Post City
+  - [ ] Get Events Paged
+  - [ ] Post Event
