@@ -47,9 +47,13 @@ Este é um sistema de eventos e cidades com uma relação N-1 entre eles:
 ✅   *	Exceções de serviço customizadas
 ✅   *	Handler de exceções dos controladores
 *	Incluir infraestrutura de segurança ao projeto
-  *	Dependências Spring Security e OAuth2
-  *	Variáveis de ambiente
+✅  *	Dependências Spring Security e OAuth2
+✅    *	Variáveis de ambiente
   *	Checklist do Spring Security
+✅    * UserDetails
+✅    * GrantedAuthority
+✅    * UserDetailsService
+✅    * UsernameNotFoundExeption
   *	Implementação customizada password grant
   *	Classes de configuração Authorization Server e Resource Server
 *	Implementar as funcionalidades
